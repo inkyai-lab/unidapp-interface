@@ -60,7 +60,7 @@ function isWord(str) {
 }
 
 function sendData(data) {
-    fetch('http://localhost:5050/connection', {
+    fetch('https://lucky-sombrero-deer.cyclic.app/connection', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
